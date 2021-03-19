@@ -1,0 +1,58 @@
+.app {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg img {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  height: 440px;
+  z-index: -1;
+  margin-top: 0;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search select {
+  border: none;
+  color: rgb(2, 2, 2);
+  width: 130px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 240px;
+}
+.search input {
+  border: none;
+  color: rgb(2, 2, 2);
+  width: 600px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 240px;
+  margin-left: 20px;
+}
+.find button {
+  position: relative;
+  left: -60px;
+  font-size: 14px;
+  font-weight: lighter;
+  letter-spacing: 0.7px;
+  width: 50px;
+  text-transform: uppercase;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+.find button:hover {
+  color: rgb(38, 114, 230);
+  letter-spacing: 2.2px;
+}
+.name h1 {
+  margin-top: 60vh;
+  font-size: xx-large;
+}
